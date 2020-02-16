@@ -1,5 +1,8 @@
-function getName() {
-    var year = document.getElementById("YOB").value;
+function getName() { 
+    var males = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+    var females = ['Akosua', 'Adwoa', 'Abena', 'Akua', 'Yaa', 'Afua', 'Ama' ];
+    var dayOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var year = document.getElementById("born year").value;
     var month = document.getElementById("month").value;
     var dayOfTheMonth = document.getElementById("day").value;
     var date = new Date(`${year} - ${month} - ${dayOfTheMonth}`);
@@ -7,9 +10,8 @@ function getName() {
     var male = document.getElementById('male');
     var female = document.getElementById('female');
     var outcome = document.getElementById('outcome');
-    var dayOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    var males = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-    var females = ['Akosua', 'Adwoa', 'Abena', 'Akua', 'Yaa', 'Afua', 'Ama' ];
+    
+   
     if (year == "" || year.Length < 4 || year.Length > 4) {
         alert('Please enter a valid year')
     } else if (month < 0 || month > 12) {
