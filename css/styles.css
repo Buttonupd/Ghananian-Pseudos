@@ -1,11 +1,19 @@
+.row h1 {
+    font-style: italic;
+    background-color: black;
+    color: navy;
+}
+.container {
+    background-image: image();
+}
 p {
-    font-size: smaller;
-    color: blue;   
-};
-h1 {
-    text-align: center;
-    color: cornflowerblue;
-};
-.format {
-    padding-left: 2in;
+    font-size: larger;
+    color:firebrick;   
+}
+
+img {
+    float: left;
+}
+p2 img{
+   float:right; 
 }
