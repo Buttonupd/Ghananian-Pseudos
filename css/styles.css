@@ -1,7 +1,11 @@
 p {
     font-size: smaller;
     color: blue;   
-}
+};
 h1 {
     text-align: center;
+    color: cornflowerblue;
+};
+.format {
+    
 }
