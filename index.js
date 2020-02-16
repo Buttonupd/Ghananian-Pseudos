@@ -19,9 +19,9 @@ function getName() {
     } else if (male.checked == false && female.checked == false) {
         alert('Specify')
     } else if (male.checked == true) {
-        outcome.innerHTML = "Your Ghananian name would be " + males[birthDay] + "since you were born on "+ dayOfTheWeek[birthDay]
+        outcome.innerHTML = " Your Ghananian name would be " + males[birthDay], + " since you were born on "+ dayOfTheWeek[birthDay]
     } else if (female.checked == true) {
-        outcome.innerHTML = "Your Ghananian name would be " + females[birthDay] + "since you were born on " + dayOfTheWeek[birthDay]
+        outcome.innerHTML = "Your Ghananian name would be " + females[birthDay], + " since you were born on " + dayOfTheWeek[birthDay]
     } else {
         alert("run")
     }
